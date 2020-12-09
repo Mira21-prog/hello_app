@@ -19,6 +19,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 gem 'execjs'
+gem 'bcrypt'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
