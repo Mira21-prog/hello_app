@@ -1,7 +1,5 @@
 class UsersController < ApplicationController
-  def new
-  end
-
+  
   def show 
     @user = User.find(params[:id])
   end
@@ -15,7 +13,8 @@ class UsersController < ApplicationController
     if @user.save
       redirect_to user_path(@user)
     else   
-      render 'new'
+      redirect_to 'new'
+      
     end
   end 
 
